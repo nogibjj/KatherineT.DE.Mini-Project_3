@@ -1,5 +1,4 @@
 1. Summary Statistics for Numeric Variables in Cereal Dataset
-
 <img width="516" alt="Summary" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/9c2c4c23-2c52-449f-b85f-a7c44e0fd897">
 
 
