@@ -16,10 +16,6 @@ Use make lint and format command to check the format
 <img width="696" alt="Screen Shot 2023-09-14 at 10 27 23 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/7837c565-088c-4091-a66b-d705f1368da1">
 
 
-
-<img width="582" alt="Screen Shot 2023-09-10 at 11 14 20 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/045bb7e5-37da-4b97-9c20-2ad734453bc0">
-
-
 ## Result
 ### The following results can also be found in report.md
 This is the summary statistics of all numeric variables in the cereal dataset. There are 17 columns and 9 rows. 
