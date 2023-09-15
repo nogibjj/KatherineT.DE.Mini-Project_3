@@ -1,4 +1,4 @@
-# Data Engineering Mini Project 2
+# Data Engineering Mini Project 3
 ## Purpose
 The purpose of this project is to use the previous template and polars to analyze a dataset, obtain its summary statistics and visualization. The dataset used here is the "cereal" dataset, which contains statistics of different cereal brands, including calories, ratings, weight, etc.
 
@@ -9,9 +9,11 @@ The purpose of this project is to use the previous template and polars to analyz
 
 ## Check format and test
 Use make test command to test the code
-<img width="954" alt="Screen Shot 2023-09-10 at 11 12 38 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/31148657-b039-411b-b216-1c593fb48600">
+<img width="778" alt="Screen Shot 2023-09-14 at 10 28 01 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/77100ebd-f18d-49cc-8d39-19ab25228f6b">
+
 
 Use make lint and format command to check the format
+<img width="696" alt="Screen Shot 2023-09-14 at 10 27 23 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/7837c565-088c-4091-a66b-d705f1368da1">
 
 
 
@@ -20,10 +22,10 @@ Use make lint and format command to check the format
 
 ## Result
 ### The following results can also be found in report.md
-This is the summary statistics of all numeric variables in the cereal dataset. There are 13 variables and 8 rows. 
-<img width="573" alt="Screen Shot 2023-09-10 at 4 54 05 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/5e2ed863-c0c6-41e1-b8ff-45431ae33650">
+This is the summary statistics of all numeric variables in the cereal dataset. There are 17 columns and 9 rows. 
+<img width="516" alt="Screen Shot 2023-09-14 at 10 05 18 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/d5697b5f-057a-401c-89cd-1280fbdf2d4c">
+
 
 This is the histogram of the calories variable. 
 
-![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f400a3a4-8163-487b-9755-2447c46e0800)
- 
+![Histogram](https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/8bdcbc75-e3ad-4590-8dd1-aff37646b15b)
