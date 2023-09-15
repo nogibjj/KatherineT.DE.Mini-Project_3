@@ -9,19 +9,22 @@ The purpose of this project is to use the previous template and polars to analyz
 
 ## Check format and test
 Use make test command to test the code
-<img width="778" alt="Screen Shot 2023-09-14 at 10 28 01 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/77100ebd-f18d-49cc-8d39-19ab25228f6b">
+
+<img width="778" alt="Test" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/60b4bea6-4e4d-4a7d-ba87-ef0417c03c47">
 
 
 Use make lint and format command to check the format
-<img width="696" alt="Screen Shot 2023-09-14 at 10 27 23 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/7837c565-088c-4091-a66b-d705f1368da1">
+
+<img width="696" alt="Format" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/7a1ec04f-6645-4ef5-80a0-296898f39d8b">
 
 
 ## Result
 ### The following results can also be found in report.md
 This is the summary statistics of all numeric variables in the cereal dataset. There are 17 columns and 9 rows. 
-<img width="516" alt="Screen Shot 2023-09-14 at 10 05 18 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/d5697b5f-057a-401c-89cd-1280fbdf2d4c">
+
+<img width="516" alt="Summary" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/d59fcc09-bc59-48de-84a8-7dbdb1fd5b7c">
 
 
 This is the histogram of the calories variable. 
 
-![Histogram](https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/8bdcbc75-e3ad-4590-8dd1-aff37646b15b)
+![Histogram](https://github.com/nogibjj/KatherineT.DE.Mini-Project_3/assets/143833511/8381891a-9b34-4531-8adb-deaa48b841cc)
