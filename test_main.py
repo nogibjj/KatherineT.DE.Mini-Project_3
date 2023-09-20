@@ -10,6 +10,8 @@ def test_sum_stats():
     #read dataset
     cereal = pl.read_csv("cereal.csv",separator = ';')
     summary = polar_stats(cereal)
+    polar_visualization(cereal)
+    generate_markdown(cereal)
     assert cereal['calories'].mean() == summary["calories"][2], "Mean test failed"
     assert cereal['protein'].median() == summary['protein'][6], "Median test failed"
     assert cereal['rating'].min() == summary['rating'][4], "Standard deviation test failed"
