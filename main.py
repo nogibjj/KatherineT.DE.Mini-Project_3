@@ -6,9 +6,6 @@ Main function goes here
 import polars as pl
 import matplotlib.pyplot as plt
 
-#read dataset
-cereal = pl.read_csv("cereal.csv",separator = ';')
-
 #define summary statistics function
 def polar_stats(data):
     return data.describe()
