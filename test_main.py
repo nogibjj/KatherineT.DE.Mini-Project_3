@@ -2,7 +2,7 @@
 Test Cases
 """
 #import functions
-from main import polar_stats, polar_visualization
+from main import polar_stats, polar_visualization,generate_markdown
 import polars as pl
 
 #define test function
