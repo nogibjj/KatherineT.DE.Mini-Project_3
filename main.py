@@ -20,8 +20,17 @@ def polar_visualization(data):
     plt.ylabel("Frequency")
     plt.title("Cereal Calories Histogram")
     plt.show()
+    plt.savefig("cereal.png")
     return
 
-if __name__ == "__main__":
-    print(polar_stats(cereal))
-    polar_visualization(cereal)
+def generate_markdown(data):
+    """generate an md file with outputs"""
+    markdown_table = polar_stats(data)
+    markdown_table = str(markdown_table)
+
+    # Write the markdown table to a file
+    with open("output.md", "w", encoding="utf-8") as file:
+        file.write("Summary:\n")
+        file.write(markdown_table)
+        file.write("\n\n")  # Add a new line
+        file.write("![cereal](cereal.png)\n")
