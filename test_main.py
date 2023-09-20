@@ -2,7 +2,7 @@
 Test Cases
 """
 #import functions
-from main import polar_stats, polar_visualization,generate_markdown
+from main import polar_stats,polar_visualization,generate_markdown
 import polars as pl
 
 #define test function
@@ -12,9 +12,9 @@ def test_sum_stats():
     summary = polar_stats(cereal)
     polar_visualization(cereal)
     generate_markdown(cereal)
-    assert cereal['calories'].mean() == summary["calories"][2], "Mean test failed"
-    assert cereal['protein'].median() == summary['protein'][6], "Median test failed"
-    assert cereal['rating'].min() == summary['rating'][4], "Standard deviation test failed"
+    assert cereal['calories'].mean() == summary["calories"][2]
+    assert cereal['protein'].median() == summary['protein'][6]
+    assert cereal['rating'].min() == summary['rating'][4]
     print("All Test passed!")
 
 #test
