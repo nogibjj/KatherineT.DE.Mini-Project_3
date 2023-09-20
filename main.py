@@ -2,8 +2,7 @@
 Main function goes here
 """
 
-#import polars and pyplot
-import polars as pl
+#import pyplot
 import matplotlib.pyplot as plt
 
 #define summary statistics function
