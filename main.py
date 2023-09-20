@@ -15,7 +15,6 @@ def polar_visualization(data):
     plt.xlabel("Calories")
     plt.ylabel("Frequency")
     plt.title("Cereal Calories Histogram")
-    plt.show()
     plt.savefig("cereal.png")
     return
 

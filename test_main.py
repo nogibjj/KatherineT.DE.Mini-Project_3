@@ -9,9 +9,10 @@ import polars as pl
 def test_sum_stats():
     #read dataset
     cereal = pl.read_csv("cereal.csv",separator = ';')
-    summary = polar_stats(cereal)
+    
     polar_visualization(cereal)
     generate_markdown(cereal)
+    summary = polar_stats(cereal)
     assert cereal['calories'].mean() == summary["calories"][2]
     assert cereal['protein'].median() == summary['protein'][6]
     assert cereal['rating'].min() == summary['rating'][4]
